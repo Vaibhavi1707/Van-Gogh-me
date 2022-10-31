@@ -15,5 +15,3 @@ The repository has 3 sub directories, namely,
 
 - `preprocessing`
     This directory contains the script for collecting the painting images and celeb images in 2 different `tf.data.Datasets` objects. These objects when zipped together can be passed to the `model.fit` method, as done in `models/Scripts/train.py`.
-
-gh token: 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
