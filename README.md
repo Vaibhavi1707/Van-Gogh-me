@@ -1,6 +1,6 @@
 # Van-Gogh-me
 
-This repository holds the source code for building and training a GAN to generate celeb portraits painted in, artist, Van Gogh's painting style. 
+This repository holds the source code for building and training a GAN to generate celeb portraits painted in, artist, Van Gogh's painting style. We experimented with GANs in this project.
 
 ## Directory Structure
 
@@ -15,3 +15,5 @@ The repository has 3 sub directories, namely,
 
 - `preprocessing`
     This directory contains the script for collecting the painting images and celeb images in 2 different `tf.data.Datasets` objects. These objects when zipped together can be passed to the `model.fit` method, as done in `models/Scripts/train.py`.
+  
+  
